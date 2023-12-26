@@ -30,7 +30,7 @@ export async function* main(data: any) {
   if (model === "gpt-3.5-turbo") responseGenerator = gptgo(data);
   if (model === "OpenChat Aura") responseGenerator = openchat(data);
   if (model === "gpt-3.5-turbo") responseGenerator = openprompt(data);
-  if (model === "gpt-4" || "gpt-3.5-turbo") responseGenerator = gptbz(data);
+  if (model === "gpt-4" || model ===  "gpt-3.5-turbo") responseGenerator = gptbz(data);
 
   const modelsToCheck = [
     "meta/llama-2-7b-chat",
