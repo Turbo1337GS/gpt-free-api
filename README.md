@@ -16,7 +16,71 @@ bun dev
 # NOTE:
 Open your IDE and search for the phrases "COOKIE VALUE" in the files. You should fill in these values to make it work correctly! If you want, you can use a loop in init.tsx to skip non-working providers. However, you also need to adjust the provider functions to make this work.
 
+```tsx
+  let models: any = [
+    {
+      model: "meta/llama-2-7b-chat",
+      details: [
+        {
+          name: "Llama",
+        }
+      ]
+    },
+    {
+      model: "meta/llama-2-13b-chat",
+      details: [
+        {
+          name: "Llama",
+        }
+      ]
+    },
+    {
+      model: "meta/llama-2-70b-chat",
+      details: [
+        {
+          name: "Llama",
+        }
+      ]
+    },
+    {
+      model: "yorickvp/llava-13b",
+      details: [
+        {
+          name: "Llava",
+        }
+      ]
+    },
+    {
+      model: "nateraw/salmonn",
+      details: [
+        {
+          name: "Salmonn",
+        }
+      ]
+    },
+    {
+      model: "OpenChat Aura",
+    },
+    {
+      model: "OpenAI - gpt4",
+      details: [
+        {
+          name: "gpt-4",
+        }
+      ]
+    },
+    {
+      model: "OpenAI - gpt35turbo",
+      details: [
+        {
+          name: "gpt-3.5-turbo",
+        }
+      ]
+    }
+    
+  ];
 
+```
 
 
 
